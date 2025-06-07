@@ -8,7 +8,7 @@ jobs:
   ppe-build:
     runs-on: ubuntu
 
-    setps:
+    steps:
       #GitHub Actions的虚拟机在任务启动时是空环境。actions/checkout 负责将仓库代码克隆到 $GITHUB_WORKSPACE 目录下，使后续步骤（如构建、测试）能直接操作代码
     - name: git code send to ubuntu server
       uses: actions/checkout@v4
