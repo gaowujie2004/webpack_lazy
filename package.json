@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "webpack serve --mode development",
-    "build": "webpack --mode production"
+    "ppe": "webpack --mode production"
 
   },
   "keywords": [],
