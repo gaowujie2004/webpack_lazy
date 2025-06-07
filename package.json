@@ -1,0 +1,23 @@
+{
+  "name": "webpack-懒加载",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack serve --mode development",
+    "build": "webpack --mode production"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.6"
+  }
+}
